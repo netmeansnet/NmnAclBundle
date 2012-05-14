@@ -1,0 +1,7 @@
+services:
+  nmn_acl_manager:
+      class:     Nmn\AclBundle\Manager\AclManager
+      arguments: ["@security.acl.provider", "@security.context"]
+  nmn_acl_tool:
+      class:     Nmn\AclBundle\Manager\AclTool
+      arguments: ["@nmn_acl_manager"]

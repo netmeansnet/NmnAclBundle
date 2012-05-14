@@ -1,0 +1,29 @@
+{
+    "name": "netmeansnet/acl-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony NmnAclBundle",
+    "keywords": ["user management, acl"],
+    "homepage": "netmeans.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Proietti",
+            "email": "leonardo@netmeans.net"
+        },
+        {
+            "name": "Eugenio Pombi",
+            "email": "eugenio@netmeans.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.0.*",
+        "symfony/doctrine-bundle": "*",
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": { "Nmn\\AclBundle": "" }
+    },
+    "target-dir": "Nmn/AclBundle"
+}
